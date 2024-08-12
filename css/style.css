@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins';
+}
+body{
+    background-color: white;
+}
+.cabecalho-superior{
+    background-color: #0043B0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    max-width: 100%;
+}
+.login{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+#pesquisa{
+    border-radius: 5rem;
+    width: 20%;
+}
+.cabecalho-imagem{
+    width: 5.5rem;
+    padding: 0.5rem;
+}
+.icons{
+    width: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+.cabecalho-inferior{
+    background-color: #1da6ea;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cabecalho-inferior .item2{
+    color: white;
+    font-weight: 700;
+}
+.banner{
+    width: 100%;
+}
+.titulo{
+    padding: 4rem 4rem;
+    font-size: 250%;
+}
+.categorias{
+    /*background-color: #b0cfff;*/
+    padding-top: 4rem;
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.linha1{
+    color: #0043B0;
+}
+.cat_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cat_1 h3{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+.cat_imagem1{
+    width: 49vh;
+    border-radius: 45%;
+    padding-right: 3rem;
+}
+.cat_imagem2{
+    width: 50vh;
+    border-radius: 45%;
+    padding-right: 3rem;
+}
+.cat_imagem3{
+    width: 45vh;
+    border-radius: 45%;
+    padding-right: 2rem;
+}
+/*.cat_imagem4{
+    width: 70%;
+    border-radius: 50%;
+}
+.cat_imagem5{
+    width: 70%;
+    border-radius: 50%;
+}*/
+.cat_emais{
+    margin-right: 4rem;
+    font-size: 200%;
+}
+.produtos{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+.card {
+    background-color: #DFEEF5;
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 1rem;
+}
+.card h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.produto-imagem1{
+    width: 100%;
+    margin-bottom: 2rem;
+    background-position: center;
+    background-size: cover;
+    gap: 2rem;
+}
+.produto-imagem2{
+    width: 100%;
+    margin-bottom: 2rem;
+    background-position: center;
+    background-size: cover;
+    gap: 2rem;
+}
+.produto-imagem3{
+    width: 100%;
+    margin-bottom: 2rem;
+    background-position: center;
+    background-size: cover;
+    gap: 2rem;
+}
+/*.produtos{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+.card {
+    background-color: #DFEEF5;
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 1rem;
+}
+.card h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.produto-imagem1{
+    width: 100%;
+    margin-bottom: 2rem;
+    background-position: center;
+    background-size: cover;
+    gap: 2rem;
+}
+.produto-imagem2{
+    width: 100%;
+    margin-bottom: 2rem;
+    background-position: center;
+    background-size: cover;
+    gap: 2rem;
+}
+.produto-imagem3{
+    width: 100%;
+    margin-bottom: 2rem;
+    background-position: center;
+    background-size: cover;
+    gap: 2rem;
+}*/
+.login2{
+    background-color: #DFEEF5;
+    padding: 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texto_login{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.titulo_login{
+    font-size: 2rem;
+    color:#0043B0;
+    font-weight: bold;
+}
+.button-sect{
+    padding-top: 2rem;
+}
+.botão_topo{
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 150%;
+    background-color:#00A5F5;
+    color: white;
+    cursor: pointer;
+}
+.rodape{
+    padding: 5rem 5rem;
+    background-color: #0043B0;
+}
+.rodape-sect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.sobre-nos{
+    display: flex;
+    flex-direction: column;
+}
+.sobre-nos a, .pagamento h2, .ajuda h2{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 10%;
+}
+.sobre-nos p, .pagamento p, .ajuda p{
+    padding-top: 1rem;
+}
+.autoria{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    color: white;
+}
